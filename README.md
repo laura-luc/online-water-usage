@@ -50,9 +50,10 @@ Ce projet a été conçu en suivant plusieurs **bonnes pratiques RSE**, tant sur
 
 ### Sobriété logicielle
 
-* Interface simple, sans frameworks lourds.
-* Utilisation de **Bootstrap**, sans surcouche inutile.
-* Très peu de JavaScript : uniquement pour charger le module WASM.
+* Interface simple, sans frameworks lourds,
+* Utilisation de **Bootstrap**, sans surcouche inutile,
+* Très peu de JavaScript : uniquement pour charger le module WASM,
+* Conteneurisation "légère" (basée sur Alpine),
 * Aucune collecte de données, aucun tracking.
 
 ### Accessibilité et efficacité
