@@ -1,0 +1,5 @@
+services:
+  water-usage-web:
+    image: "ghcr.io/laura-luc/online-water-usage:main"
+    ports:
+      - "127.0.0.1:80:8080"

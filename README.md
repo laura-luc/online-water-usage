@@ -8,6 +8,17 @@ L’objectif est de **sensibiliser** aux impacts environnementaux souvent invisi
 
 ---
 
+## Utilisation
+### Locale
+Pour utiliser localement la solution :
+```bash
+git clone https://github.com/laura-luc/online-water-usage.git
+cd online-water-usage
+docker compose up -d
+```
+
+Il suffit de se rendre à l'adresse : [http://localhost](http://localhost)
+
 ##  Démarche RSE
 
 Ce projet a été conçu en suivant plusieurs **bonnes pratiques RSE**, tant sur le fond que sur la forme.
