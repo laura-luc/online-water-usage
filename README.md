@@ -19,6 +19,14 @@ docker compose up -d
 
 Il suffit de se rendre à l'adresse : [http://localhost](http://localhost)
 
+> Note : vous devrez peut-être exécuter la dernière commande en tant qu'administrateur
+
+Pour stopper le service :
+```bash
+cd online-water-usage
+docker compose down
+```
+
 ##  Démarche RSE
 
 Ce projet a été conçu en suivant plusieurs **bonnes pratiques RSE**, tant sur le fond que sur la forme.
