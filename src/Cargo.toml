@@ -1,0 +1,21 @@
+[package]
+name = "rse"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
+
+web-sys = { version = "0.3", features = [
+  "Window",
+  "Document",
+  "HtmlInputElement",
+  "HtmlSelectElement",
+  "Element",
+  "Node",
+  "DomTokenList"
+]}
